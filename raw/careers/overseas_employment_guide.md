@@ -367,32 +367,25 @@ Industry 4.0의 최첨단을 경험할 수 있고, 산업공학의
 ### 💪 핵심 역량 개발 로드맵
 
 ```mermaid
-timeline
+gantt
     title 해외취업 준비 3년 로드맵
-    
+    dateFormat  YYYY-MM
+    axisFormat  %Y년
+
     section 1년차: 기초 구축
-        어학 능력     : TOEIC 900+ 달성
-                    : 비즈니스 영어 회화
-        기술 역량     : Python/R 중급
-                    : SQL 데이터베이스
-        전공 심화     : 고급 통계학
-                    : 운영연구 마스터
+    어학 능력 (TOEIC 900+)        :done, lang1, 2025-01, 2025-12
+    기술 역량 (Python/R/SQL)      :done, tech1, 2025-01, 2025-12
+    전공 심화 (통계/OR)           :done, major1, 2025-03, 2025-12
 
     section 2년차: 실무 경험
-        프로젝트     : 캐글 컴피티션 참여
-                    : 포트폴리오 3개 완성
-        네트워킹     : LinkedIn 프로필 최적화
-                    : 해외 동문 네트워크 구축
-        인턴십       : 글로벌 기업 인턴
-                    : 해외 대학 교환학생
+    프로젝트 (캐글/포트폴리오)     :active, proj2, 2026-01, 2026-12
+    네트워킹 (LinkedIn/동문)      :active, net2, 2026-01, 2026-12
+    인턴십 (글로벌 기업)          :intern2, 2026-06, 2026-12
 
-    section 3년차: 취업 도전  
-        지원 준비    : 글로벌 표준 이력서
-                    : 커버레터 작성
-        면접 준비    : Mock Interview
-                    : Technical Interview
-        비자 준비    : 학생비자/취업비자
-                    : 이민 컨설팅
+    section 3년차: 취업 도전
+    지원 준비 (이력서/커버레터)    :apply3, 2027-01, 2027-06
+    면접 준비 (Mock/Technical)    :interview3, 2027-03, 2027-09
+    비자 준비 (학생/취업비자)      :visa3, 2027-06, 2027-12
 ```
 
 ---
