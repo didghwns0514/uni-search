@@ -1,0 +1,43 @@
+{
+  "title": "산업공학과 수시 대학 선택 가이드",
+  "description": "건국대, 동국대, 부산대 산업공학과 전략적 분석 및 진로 설계",
+  "author": "Claude AI Assistant",
+  "language": "ko",
+  "gitbook": "3.2.3",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "mermaid-gb3",
+    "katex",
+    "search-plus",
+    "splitter",
+    "expandable-chapters-small",
+    "page-toc-button",
+    "back-to-top-button",
+    "theme-comscore"
+  ],
+  "pluginsConfig": {
+    "mermaid-gb3": {
+      "theme": "default"
+    },
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+    },
+    "theme-comscore": {
+      "nav": [
+        {
+          "url": "https://github.com/anthropics/claude",
+          "target": "blank",
+          "label": "GitHub"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "year": "2024-2025",
+    "version": "1.0.0"
+  }
+}
